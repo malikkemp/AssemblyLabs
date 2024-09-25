@@ -20,7 +20,7 @@ loop:
 	bgt $t3, $t4, string1_after_2 	# If $t3 > $t4, string1 comes after string2
 	blt $t3, $t4, string1_before_2 	# If $t3 < $t4, string1 comes before string2
 
-# Move to the next character
+#  Move to the next character
 next:
 	addi $t0, $t0, 1 	# Move to next character in string1
 	addi $t1, $t1, 1 	# Move to next character in string2
@@ -31,7 +31,7 @@ next:
 	beqz $t6, string1_after_2	# If end of string2, string1 is before string2
 	j loop 			# jump to beginning of loop
 
-# Code to run if string 1 comes after string 2 numerically
+	# Code to run if string 1 comes after string 2 numerically
 string1_after_2:
 	la $a0, string1			# Load address of string1 to print
 	li $v0, 4			# Syscall code for print string
