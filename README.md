@@ -13,7 +13,7 @@ To run these programs, you will need the [MARS](https://courses.missouristate.ed
 
 ## Programs
 
-- `Lab1.asm`: This project demonstrates how converting number forms works in Assembly. It also gives a good idea of how bitmasks work on a system level.
+- `Lab1.asm`: This project demonstrates how converting number forms works in Assembly. It also gives a good idea of how netmasks work on a system level.
 - `Lab2.asm`: This project demonstrates the basics of loops, jumps and syscalls in Assembly and how they are handled.
 - `Lab3.asm`: This project demonstrates input/output as well as how multiplication is handled in Assembly.
 
